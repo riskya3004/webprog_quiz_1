@@ -1,0 +1,21 @@
+/* .container{
+    border: solid 1px red;
+    width: 5vw;
+} */
+
+/* .kotak-barang-rare{
+    border: solid 1px red;
+} */
+
+.kelas-rare{
+    background-color: silver;
+}
+
+.kelas-Srare{
+    background-color: gold;
+}
+
+.kelas-SSrare{
+    background-color: red;
+}
+
