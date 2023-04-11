@@ -6,20 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/product-style.css">
-    <title>@yield('title', 'List Products')</title>
+    <title>@yield('title', 'Products')</title>
 </head>
 <body>
-    @include('layout.navbar')
-
-    <div class="container">
-
-    </div>
+    {{-- @include('layout.navbar') --}}
         <div class="show-box">
             @foreach ($product as $barang)
                 @if ($barang['rarityproduk'] == "Rare")
 
                         <div class="kelas-rare">
-                             <a href="penjelasan/{{ $barang['idproduct'] }}" class="kotak-barang-rare">
+                            <a href="penjelasan/{{ $barang['idproduct'] }}" class="kotak-barang-rare">
                                 <div class="kotak-detail" >
                                     <img class="gambar-barang" src="{{ asset('img/'. $barang['image-produk']) }}" alt="{{ $barang['nameproduct'] }}">
                                     <h4 class="nama-barang">{{ $barang['nameproduct'] }}</h4>
@@ -32,7 +28,7 @@
 
 
                 @elseif ($barang['rarityproduk'] == "S-Rare")
-                        <div class="kelas-Srare">
+                        <div class="kelas-Srare" style="">
                             <a href="penjelasan/{{ $barang['idproduct'] }}" class="kotak-barang-SRare">
                                 <div class="kotak-detail">
                                 <img class="gambar-barang" src="{{ asset('img/'. $barang['image-produk']) }}" alt="{{ $barang['nameproduct'] }}">

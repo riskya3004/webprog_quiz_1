@@ -7,39 +7,53 @@
     border: solid 1px red;
 } */
 
-.navbar-edit{
+
+
+
+
+.navbar-edit a{
     position: relative;
-    display: flex;
+    /* display: flex; */
+    border: solid 1px red;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    font-size: 50px;
+    text-align: center;
+    /* margin-left: 650px; */
 }
 
 .show-box{
-    position: relative;
+    /* position: relative; */
     display: flex;
-    align-items: center;
+    gap: 15px;
+    /* align-items: center; */
     justify-content: center;
+    margin-top: 2vw;
 }
 
 .kelas-rare{
     background-color: silver;
     width: 20vw;
-    /* height: 100px; */
+    /* height: 5vw; */
+    text-decoration: none;
 }
 
 .kelas-Srare{
-    background-color: gold;
+    background-color: rgb(236, 213, 83);
     width: 20vw;
+    text-decoration: none;
 }
 
 .kelas-SSrare{
-    background-color: red;
+    background-color: rgb(241, 110, 110);
     width: 20vw;
+    text-decoration: none;
 }
 
-.gambar-barang{
+.gambar-barang  {
     width: 20vw;
-    height: 10vw;
+    height: 15vw;
+    text-decoration: none;
 }
 
 .nama-barang {
@@ -58,4 +72,12 @@
 
 .harga-barang{
     color: black;
+}
+
+.show-description{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    border: solid 3px red;
 }
