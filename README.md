@@ -1,3 +1,11 @@
+![Page-1 Section Display](https://github.com/riskya3004/webprog_quiz_1/blob/master/public/img/screenshoot/page_1.png)
+![Page-2 Section Display](https://github.com/riskya3004/webprog_quiz_1/blob/master/public/assets/img/screenshoot/page_2.png)
+![Page-3 Section Display](https://github.com/riskya3004/webprog_quiz_1/blob/master/public/assets/img/screenshoot/page_3.png)
+![Page-4 Section Display](htps://github.com/riskya3004/webprog_quiz_1/blob/master/public/assets/img/screenshoot/page_4.png)
+![Page-5 Section Display](https://github.com/riskya3004/webprog_quiz_1/blob/master/public/assets/img/screenshoot/page_5.png)
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
